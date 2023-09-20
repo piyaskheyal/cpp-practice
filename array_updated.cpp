@@ -1,14 +1,12 @@
 #include<bits/stdc++.h>
 using namespace std;
 
+const int N = 1e7+10;
+long long Arr[N];
+
 int main(){
     int n, m; // n is size of an array m is number of operations
     cin>>n>>m;
-    int Arr[n+10];
-    for(int i=0; i<n+10; i++){
-        Arr[i]=0;
-    }
-    // Arr = 0 0 0 0 0 0 0 0 0 0
     while(m--){
         int a, b, k;
         cin>>a>>b>>k;
